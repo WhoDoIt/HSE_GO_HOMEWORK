@@ -1,7 +1,7 @@
-all: build exec
+task1: task1_build exec
 
-build:
-	go build cmd/task/main.go
+task1_build:
+	go build task1/cmd/task/main.go
 
 exec:
 	./main.exe
